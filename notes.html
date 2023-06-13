@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-image: url(./images/abstract.jpg);
+            background-size: 100% 100%;
+            color: white;
+        }
+
+        .navlist {
+            list-style-type: none; /* removes the bullets from list items */
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #666;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            border-radius: 40px;
+        }
+
+        .navbar_li {
+            float: left; /* property converts the list items into floating objects so that they can be displayed side-by-side */
+            border-right: 4px solid black;
+        }
+        
+        .active {
+            background-color: green; /* class contains the id of the tab that the user is currently on. The background-color property allows that tab to have a different color than the rest of the tabs */
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color:blueviolet;
+            box-shadow: 0 0 100px blueviolet;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+</head>
+<body>
+    <div id="navbar">
+        <ul class="navlist">
+            <li class="navbar_li"><a href="./index.html" class="nav">Home</a></li>
+            <li class="navbar_li"><a href="./news.html" class="nav">News</a></li>
+            <li class="navbar_li"><a href="./contact.html" class="nav">Contact</a></li>
+            <li class="navbar_li"><a href="./about me.html" class="nav">About Me</a></li>
+            <li class="navbar_li"><a href="./notes.html" class="nav">Notes</a></li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <h1>Notes from Intermediate CSS class:</h1>
+        <p>
+        Notes will be included in this project folder (Practice/Reference Project 2) as I will be referencing it down the road since I have used so many new and unique elements. Also, refer to (7.0 CSS Cascade) file for reference to this cascade order in actual practice.
+        <br>
+        <br>
+            <h2>Cascade order of attribute selectors:</h2>
+            <hr>
+            <ol>
+                <li>element</li>
+                <li>class</li>
+                <li>attribute</li>
+                <li>id</li>
+             </ol>   
+
+            If you assign all four of these selectors to an element, it will ultimately go with the <strong>id selector</strong>. As it is at the bottom of the cascade.
+        </p>
+        <br>
+        <p>
+            <h2>Three different ways to apply CSS to a file.</h2>
+            <hr>
+            <ul>
+                <li><strong>external</strong> uses a external style sheet in project folder. (ex. style.css)</li>
+                <li><strong>internal</strong> uses style element inbetween open and close brackets of style element. This will only exist within the one webpage it is written in.</li>
+                <li><strong>inline</strong> style is applied through the style attribute inside the opening tag of an html element.</li>
+            </ul>
+            If all three of these methods are used, the <strong>inline</strong> style will take priority as it is at the bottom of the cascade.
+        </p>
+    </p>
+    <br>
+    ***The <strong>important</strong> key word will take priority over all the rules relative to that element.
+    <br>
+        <br>
+        <strong>Example:</strong><br>
+            color: red;<br>
+            color: green !important;
+        <br>
+            The cascade will display green because it has been applied with the <strong>important</strong> keyword.
+    </body>
+</html>

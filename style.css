@@ -1,0 +1,239 @@
+/* 
+font-family: 'Amatic SC', cursive;
+font-family: 'Creepster', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Gruppo', sans-serif;
+font-family: 'Merienda', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Press Start 2P', cursive;
+*/
+
+.navlist {
+    list-style-type: none; /* removes the bullets from list items */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.navbar_li {
+    float: left; /* property converts the list items into floating objects so that they can be displayed side-by-side */
+    border-right: 4px solid black;
+}
+
+.active {
+    background-color: green; /* class contains the id of the tab that the user is currently on. The background-color property allows that tab to have a different color than the rest of the tabs */
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:blueviolet;
+    box-shadow: 0 0 60px blueviolet;
+}
+
+#heading1 {
+    margin: auto;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 70px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.pecker {
+    text-transform: uppercase;
+}
+
+#sidenote {
+    width: 1020px;
+    color: white;
+    text-align: center;
+    display: flex;
+    margin-left: 200px;
+}
+
+#button {
+    flex: 2;
+    margin-left: 10px;
+}
+
+p {
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body {
+    background-color: black;
+    font-weight:bold;
+}
+
+.horror {
+    font-family: 'Creepster', cursive;
+    font-size: 5rem;
+    color: red;
+}
+
+#horror {
+    margin: auto;
+    color: whitesmoke;
+    background-image: url(./images/scary-house.jpg);
+    width: 1320px;
+    height: 600px;
+    background-size: 100% 100%;
+    border: 5px solid gray;
+    border-radius: 100px;
+}
+
+.horrortitle {
+    font-family: 'Creepster', cursive;
+    font-size: 30px;
+    color: red;
+}
+
+.horrorbook {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    color: white;
+}
+
+.fantasy {
+    font-family: 'Merienda', cursive;
+    font-size: 5rem;
+    color: white;
+}
+
+#fantasy {
+    margin: auto;
+    width: 1320px;
+    height: 600px;
+    border: 5px solid gray;
+    border-radius: 70px;
+    color: whitesmoke;
+    background-image: url(./images/way-of-kings.jpg);
+    background-size: 100% 100%;
+
+}
+
+.fantasytitle {
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+    color: white;
+}
+
+.fanbooks {
+    font-family: 'Merienda', cursive;
+    font-size: 16px;
+    color: white;
+}
+
+.scifi {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;  
+    color: white;
+}
+
+#scifi {
+    margin: auto;
+    width: 1320px;
+    height: 600px;
+    border: 5px solid gray;
+    border-radius: 40px;
+    color: whitesmoke;
+    background-image: url(./images/space.jpg);
+    background-size: 100% 100%;
+
+}
+
+.little-prince {
+    object-fit: cover;
+}
+
+.scifititle {
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    color: white;
+}
+
+.scifibook {
+    font-family: 'Gruppo', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+li {
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.foot {
+    text-align: right;
+    color: white;
+}
+
+.custom-button {
+    background-color: red;
+    border:color-mix(in hsl shorter hue, gold 80%, silver 80%);
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 32px;
+}
+
+.button-text {
+    color: white;
+}
+
+.custom-button:hover {
+    background-color:red;
+    color:whitesmoke;
+    font-size: 32px;
+    box-shadow: 0 0 50px red; /* This glow effect using box shadow requires (4) values: horizontal offset, vertical offset, blur radius, and color. In that order. */
+}
+
+/*
+ul {
+    margin-left: -40px;
+    margin-top: -20px;
+    list-style-position: inside;
+  }
+*/
+
+/* This is practice code I've never used before. Snatched it off the internet. VOID for now. Learn it later.
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+*/
+
+
+
+
